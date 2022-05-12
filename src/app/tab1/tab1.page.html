@@ -1,17 +1,48 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Pizzas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar inputmode="numeric"></ion-searchbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2020_09/3246761/plain_pizza.jpg">
+    </ion-thumbnail>
+    <ion-label>Pizza Do Chefe</ion-label>
+    <ion-badge color="light">45,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2019/07/15-Minute-Pizza-WS-Thumbnail.png">
+    </ion-thumbnail>
+    <ion-label>Pepperoni</ion-label>
+    <ion-badge color="light">40,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Pizza-from-Scratch_EXPS_FT20_8621_F_0505_1_home.jpg">
+    </ion-thumbnail>
+    <ion-label>Frango com quiejo suiço </ion-label>
+    <ion-badge color="light">47,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8kBejTLt2ZTIqFs9KtJPSRvqjFzmBMNgd1g&usqp=CAU">
+    </ion-thumbnail>
+    <ion-label>4 queijos </ion-label>
+    <ion-badge color="light">30,00</ion-badge>
+  </ion-item>
+
+
+
+  
+
 </ion-content>
